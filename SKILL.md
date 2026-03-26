@@ -1,14 +1,16 @@
-<<<<<<< HEAD
-
   ---
-  name: aws-claude-detection-skill
-  description: Use this skill when the user asks to analyze AWS events, detect threats, investigate CloudTrail logs, IAM activity, S3 access, EC2 events, or respond to AWS security incidents.
-  argument-hint: [event-json|scenario|module]
-  allowed-tools: [Read, Bash, Glob]
-  model: sonnet
-  ---
-
   # AWS Detection & Response Skill
+  
+  description: Use this skill when the user asks to analyze AWS events, detect threats, investigate CloudTrail logs, IAM activity, S3 access, EC2 events, or respond to AWS security incidents.
+  
+  argument-hint: [event-json|scenario|module]
+  
+  allowed-tools: [Read, Bash, Glob]
+  
+  model: sonnet
+  
+  ---
+
 
   ## Role
   You are a senior cloud security Detection & Response engineer.
