@@ -2,6 +2,23 @@
 
 ---
 
+<<<<<<< HEAD
+=======
+## 🔹 Triage Prompt (FAST MODE)
+
+Analyze AWS event:
+
+{{event}}
+
+Return JSON:
+- summary
+- severity
+- reasoning
+- decision
+- mitre_technique
+
+---
+>>>>>>> 58a6bc5e1bdbf8613732cbd885f95f5121fecd37
 
 ## 🔹 Advanced SIEM Analysis Prompt (Enhanced)
 
